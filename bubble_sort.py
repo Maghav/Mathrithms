@@ -1,10 +1,10 @@
+# I am using Python for bubble sort. Below is the working of the code
+
 # In first iteration, Starting from the first index, compare the first and the second elements. If the first element is greater than the second element, they are swapped
 # Now, compare the second and the third elements. Swap them if they are not in order
 # The above process goes on until the last element and the same process goes on for the remaining iterations
 # After each iteration, the largest element among the unsorted elements is placed at the end.
-
-
-# Bubble sort in Python
+# Below is the code
 
 def func(a):
     # loop to access each array element
