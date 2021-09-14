@@ -9,22 +9,16 @@
 def func(a):
     # loop to access each array element
     for i in range(len(a)):
-
         # loop to compare array elements
-        for j in range(0, len(a) - i - 1):
-
+        for j in range(0, len(a)-i-1):
             # compare two adjacent elements
             # change > to < to sort in descending order
-            if a[j] > a[j + 1]:
-                # swapping elements if elements
-                # are not in the intended order
+            if a[j]>a[j+1]:
+                # swapping elements if not in required order
                 temp = a[j]
-                a[j] = a[j + 1]
-                a[j + 1] = temp
-
+                a[j] = a[j+1]
+                a[j+1]=temp
 
 b = [5,6,1,2,8,2,0,12,6,7]
-
 func(b)
-
 print(b)
